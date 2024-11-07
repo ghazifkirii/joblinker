@@ -17,7 +17,6 @@ JobLinker is a web application designed to streamline the hiring process by auto
 - **Unsupervised learning**
 - **Data Scraping**
 
-
 ## Usage
 
 1. Visit the JobLinker web application.
@@ -26,13 +25,14 @@ JobLinker is a web application designed to streamline the hiring process by auto
 4. Review the results and use the scoring system to identify the best candidates.
 
 ## ScreenShots
+
 ![Table Result](https://github.com/STAAHMED11/JobLinker/blob/66ba9830aebe90d0530291c249b26762672ccacb/job_img0.png)
+
 ## Contact
 
 For questions or support, feel free to contact me:
 
 - **Sta Ahmed**
-- Email: ahmed.sta@ensi-uma.tn
-- LinkedIn: [Sta Ahmed](https://www.linkedin.com/in/ahmed-sta-06a721202/)
-- GitHub: [STAAHMED11](https://github.com/STAAHMED11)
-
+- Email: ghazi.fkiri@ensi-uma.tn
+- LinkedIn: [Fkiri Ghazi](https://www.linkedin.com/in/ghazi-fkiri-66364827b/)
+- GitHub: [ghazifkirii](https://github.com/ghazifkirii)
