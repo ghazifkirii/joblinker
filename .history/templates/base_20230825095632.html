@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="'en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your Page Title</title>
+
+    <!-- Link to Bootstrap CSS from CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VeKQhegmzxH...">
+</head>
+
+<body>
+    <h1>Upload a PDF File</h1>
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label class="form-label" for="pdf_files">Select PDF Files</label>
+        <input type="file" class="form-control" id="pdf_files" name="pdf_files" accept=".pdf" multiple />
+        <button type="submit">Upload</button>
+    </form>
+
+    <div class="pdf-text-container">
+        <h2>PDF Texts:</h2>
+        <ul>
+            {% for pdf_text in pdf_texts %}
+            <li>{{ pdf_text }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+
+</body>
+
+</html>
